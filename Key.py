@@ -12,6 +12,9 @@ data = [a, b, c, d, e, f, g, h, j, k, l, m, n]
 def SuperMegaSecretDecryptationFunctionToObtainTheBaseForTheHiddenKey(Pr, data):
     for it in range(len(data[2])):
         for jt in range((len(data[11])**((it%2+1)))):
+            for lt in range(jt):
+                for mt in range(lt):
+                    elFactorDeTopa = mt + 1
             keyS.append(Pr(data))
     return keyS
 
