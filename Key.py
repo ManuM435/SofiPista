@@ -8,17 +8,18 @@ import numpy as np
 
 a, b, c, d, e, f, g, h, i, j, k, l, m, n, keyS, t = np.linspace(0, 1, 1000000), np.linspace(1, 2, 1000000), np.linspace(2, 3, 1000000), np.linspace(3, 4, 1000000), np.linspace(4, 5, 1000000), np.linspace(5, 6, 1000000), np.linspace(6, 7, 1000000), np.linspace(7, 8, 1000000), np.linspace(0, 10, 11), np.linspace(9, 10, 1000000), np.linspace(10, 11, 1000000), np.linspace(11, 12, 1000000), np.linspace(12, 13, 1000000), np.linspace(13, 14, 1000000), [], []
 data = [a, b, c, d, e, f, g, h, j, k, l, m, n]
-print(len(data))
 
 def SuperMegaSecretDecryptationFunctionToObtainTheBaseForTheHiddenKey(Pr, data):
     for it in range(len(data[2])):
         for jt in range((len(data[11])**((it%2+1)))):
-            keyS.append(Pr(jt))
+            keyS.append(Pr(data))
     return keyS
 
 def Advanced_Processor_Function_To_Eliminate_Noise_And_Return_A_Base_Number_For_The_Key_To_Then_Be_Decrypted(data):
+    t = []
+    processingFactor = 0
     for x in range(len(data[5])):
-        t.extended[data[0][x], data[1][x], data[2][x], data[3][x], data[4][x], data[5][x], data[6][x], data[7][x], data[8][x], data[9][x], data[10][x], data[11][x], data[12][x]]
+        t.append(data[2][x])
         processingFactor += x / (1 + abs(a[x] / h[x] * j[x]))
     return t
 
@@ -58,7 +59,7 @@ def Calculator_of_Factorization_Using_Prime_Numbers(n):
         factors.append(n)
     return factors
 
-key = DerivingFunctionToFinallyReturnTheNumberUtilizingThePreviousFactorizationOfTheDecryptionOfTheProccessedData(Calculator_of_Factorization_Using_Prime_Numbers((SuperMegaSecretDecryptationFunctionToObtainTheBaseForTheHiddenKey(Advanced_Processor_Function_To_Eliminate_Noise_And_Return_A_Base_Number_For_The_Key_To_Then_Be_Decrypted(data), data))[17])[0] + 478195213687/21, 12345)
+key = DerivingFunctionToFinallyReturnTheNumberUtilizingThePreviousFactorizationOfTheDecryptionOfTheProccessedData(Calculator_of_Factorization_Using_Prime_Numbers((SuperMegaSecretDecryptationFunctionToObtainTheBaseForTheHiddenKey(Advanced_Processor_Function_To_Eliminate_Noise_And_Return_A_Base_Number_For_The_Key_To_Then_Be_Decrypted, data))[17])[0] + 478195213687/21, 12345)
 print(key)
 
 
